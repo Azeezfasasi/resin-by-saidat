@@ -12,6 +12,8 @@ import ProductHomeSection from '../assets/components/home-components/ProductHome
 import Review from '../assets/components/home-components/Review';
 import Footer from '../assets/components/home-components/Footer';
 import TopHeaderTwo from '../assets/components/home-components/TopHeaderTwo';
+import MobileFooter from '../assets/components/home-components/MobileFooter';
+import WhatsAppChatRibbon from '../assets/components/home-components/WhatsappChatRibbon';
 
 function Home() {
   return (
@@ -19,16 +21,19 @@ function Home() {
     <Helmet>
       <title>Home - Resin By Saidat</title>
     </Helmet>
+    <div className='bg-white sticky top-0 z-50'>
     <TopHeader />
     <MainHeader />
+    </div>
     <Hero />
     <ObjectWithSense />
     <TimeMade />
     <About />
-    <NewsLetter />
-    <ProductHomeSection />
     <Review />
+    <NewsLetter />
     <Footer />
+    <MobileFooter />
+    <WhatsAppChatRibbon />
     </>
   )
 }

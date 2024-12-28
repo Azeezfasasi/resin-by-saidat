@@ -33,39 +33,39 @@ function TopHeader() {
       >
         {/* Duplicate the content for seamless looping */}
         <div className="flex flex-row">
-          <Link to="/" className="px-4 text-dedcoolcom-black font-['Inter-Regular',_sans-serif] text-[10px] leading-[26px] uppercase">
+          <Link to="/app/resinregistrationform" className="px-4 text-dedcoolcom-black font-['Inter-Regular',_sans-serif] text-[10px] leading-[26px] uppercase border border-solid border-[grey] bg-black text-white hover:bg-white hover:text-black">
             Learn How to Make Resin
           </Link>
-          <Link to="/" className="px-4 text-dedcoolcom-black font-['Inter-Regular',_sans-serif] text-[10px] leading-[26px] uppercase">
+          <Link to="/app/resinregistrationform" className="px-4 text-dedcoolcom-black font-['Inter-Regular',_sans-serif] text-[10px] leading-[26px] uppercase border border-solid border-[grey] bg-black text-white hover:bg-white hover:text-black">
             Register for our upcoming Training
           </Link>
-          <Link to="/" className="px-4 text-dedcoolcom-black font-['Inter-Regular',_sans-serif] text-[10px] leading-[26px] uppercase">
+          <Link to="/app/shop" className="px-4 text-dedcoolcom-black font-['Inter-Regular',_sans-serif] text-[10px] leading-[26px] uppercase border border-solid border-[grey] bg-black text-white hover:bg-white hover:text-black">
             Purchase Resin Starter Kits
           </Link>
         </div>
         {/* Duplicate the content for seamless looping */}
         <div className="flex flex-row">
-          <div className="px-4 text-dedcoolcom-black font-['Inter-Regular',_sans-serif] text-[10px] leading-[26px] uppercase">
+          <Link to="/app/resinregistrationform" className="px-4 text-dedcoolcom-black font-['Inter-Regular',_sans-serif] text-[10px] leading-[26px] uppercase border border-solid border-[grey] bg-black text-white hover:bg-white hover:text-black">
             Learn How to Make Resin
-          </div>
-          <div className="px-4 text-dedcoolcom-black font-['Inter-Regular',_sans-serif] text-[10px] leading-[26px] uppercase">
+          </Link>
+          <Link to="/app/resinregistrationform" className="px-4 text-dedcoolcom-black font-['Inter-Regular',_sans-serif] text-[10px] leading-[26px] uppercase border border-solid border-[grey] bg-black text-white hover:bg-white hover:text-black">
             Register for our upcoming Training
-          </div>
-          <div className="px-4 text-dedcoolcom-black font-['Inter-Regular',_sans-serif] text-[10px] leading-[26px] uppercase">
+          </Link>
+          <Link to="/app/shop" className="px-4 text-dedcoolcom-black font-['Inter-Regular',_sans-serif] text-[10px] leading-[26px] uppercase border border-solid border-[grey] bg-black text-white hover:bg-white hover:text-black">
             Purchase Resin Starter Kits
-          </div>
+          </Link>
         </div>
         {/* Duplicate the content for seamless looping */}
         <div className="flex flex-row">
-          <div className="px-4 text-dedcoolcom-black font-['Inter-Regular',_sans-serif] text-[10px] leading-[26px] uppercase">
+          <Link to="/app/resinregistrationform" className="px-4 text-dedcoolcom-black font-['Inter-Regular',_sans-serif] text-[10px] leading-[26px] uppercase border border-solid border-[grey] bg-black text-white hover:bg-white hover:text-black">
             Learn How to Make Resin
-          </div>
-          <div className="px-4 text-dedcoolcom-black font-['Inter-Regular',_sans-serif] text-[10px] leading-[26px] uppercase">
+          </Link>
+          <Link to="/app/resinregistrationform" className="px-4 text-dedcoolcom-black font-['Inter-Regular',_sans-serif] text-[10px] leading-[26px] uppercase border border-solid border-[grey] bg-black text-white hover:bg-white hover:text-black">
             Register for our upcoming Training
-          </div>
-          <div className="px-4 text-dedcoolcom-black font-['Inter-Regular',_sans-serif] text-[10px] leading-[26px] uppercase">
+          </Link>
+          <Link to="/app/shop" className="px-4 text-dedcoolcom-black font-['Inter-Regular',_sans-serif] text-[10px] leading-[26px] uppercase border border-solid border-[grey] bg-black text-white hover:bg-white hover:text-black">
             Purchase Resin Starter Kits
-          </div>
+          </Link>
         </div>
       </div>
     </div>
